@@ -1,4 +1,4 @@
-Student Management System - README
+Student Management System -
 
 Developer Information:
 
@@ -72,5 +72,4 @@ Feel free to provide feedback or contribute to the project. If you encounter any
 
 Thank you for using the Student Management System!
 
----
-*Note: Replace placeholders like [Your Full Name], [Your Email Address], and [repository_url] with your actual information.*
+
