@@ -6,21 +6,20 @@ Original Developer:
 - Name: Hard Pansara
 - GitHub: https://github.com/hardpatel10
 
----
+
 
 Introduction:
 
 Welcome to the Student Management System! This Java application is designed to manage student records through a simple and intuitive interface. Below are details to help you understand and use this application effectively.
 
----
+
 
 Getting Started:
 
 1. Clone the Repository:
    - Clone this repository to your local machine using the following command:
-     ```
+     
      git clone [repository_url]
-     ```
 
 2. Set Up Database:
    - Install XAMPP or MySQL.
@@ -33,12 +32,11 @@ Getting Started:
 4. Adjust Database Connection:
    - Open the `Home.java` file in your preferred IDE.
    - Locate the following lines of code:
-     ```java
+     java
      Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/database", "root", "");
-     ```
+     
    - Customize the connection URL, username, and password based on your MySQL setup.
 
----
 
 Usage:
 
