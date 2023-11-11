@@ -1,5 +1,7 @@
 # Student-management-system-project
-Description:
+
+
+**Description:**
 
 This Java application is a simple Student Management System that interacts with a MySQL database to perform basic operations related to student records. The system provides a graphical user interface (GUI) using Java's Swing library and utilizes JDBC to connect to a MySQL database.
 
@@ -16,10 +18,16 @@ This Java application is a simple Student Management System that interacts with 
    - The application connects to a MySQL database hosted locally on the default port (3306).
    - The connection credentials used in the example are a username "root" with an empty password. Users should adjust these details based on their MySQL setup.
 
-4. **Student Operations:**
+4. **Database Location:**
+   - Users are required to set up the MySQL database at a specified location. For reference, it is recommended to place the database directory at "C:\xampp\mysql\data". Users should customize this location based on their XAMPP or MySQL installation directory.
+
+5. **Library Dependency:**
+   - The application relies on the "mysql-connector-j-8.1.0" library for MySQL connectivity. Users must ensure that this library is added to the reference library of the project. The library can be downloaded [here](https://dev.mysql.com/downloads/connector/j/?os=26).
+
+6. **Student Operations:**
    - **Adding a Student:**
      - Users can input details such as student ID, name, age, contact number, email, department, and course. The application validates input, including contact numbers and email addresses.
-   - The information is then added to the database.
+     - The information is then added to the database.
 
    - **Viewing Student List:**
      - Users can view a list of all students in the database, displaying details like ID, name, age, contact number, email, department, and course.
@@ -33,14 +41,15 @@ This Java application is a simple Student Management System that interacts with 
    - **Deleting a Student:**
      - Users can delete a student from the database by providing the student's ID.
 
-5. **Error Handling:**
+7. **Error Handling:**
    - The application includes error handling for invalid input during student creation and login validation.
    - Database-related errors are caught and displayed in a dialog box.
 
 **Usage:**
 1. Execute the Java program.
-2. Enter the username and password when prompted.
-3. Choose from the menu options to perform various operations on student records.
+2. Ensure that the "mysql-connector-j-8.1.0" library is added to the reference library of the project.
+3. Enter the username and password when prompted.
+4. Choose from the menu options to perform various operations on student records.
 
 **Note:**
 - Users should customize the database connection details (URL, username, password) based on their MySQL setup.
