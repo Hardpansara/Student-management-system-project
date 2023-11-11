@@ -1,37 +1,36 @@
-**Student Management System - README**
+Student Management System - README
 
-**Developer Information:**
+Developer Information:
 
-**Original Developer:**
-- **Name:** [Your Full Name]
-- **Contact:** [Your Email Address]
-- **GitHub:** [Your GitHub Profile Link]
+Original Developer:
+- Name: Hard Pansara
+- GitHub: https://github.com/hardpatel10
 
 ---
 
-**Introduction:**
+Introduction:
 
 Welcome to the Student Management System! This Java application is designed to manage student records through a simple and intuitive interface. Below are details to help you understand and use this application effectively.
 
 ---
 
-**Getting Started:**
+Getting Started:
 
-1. **Clone the Repository:**
+1. Clone the Repository:
    - Clone this repository to your local machine using the following command:
      ```
      git clone [repository_url]
      ```
 
-2. **Set Up Database:**
+2. Set Up Database:
    - Install XAMPP or MySQL.
    - Create a new database named "database" and execute the provided SQL script in `database_setup.sql` to create the necessary table.
 
-3. **Configure MySQL Connector:**
+3. Configure MySQL Connector:
    - Download the MySQL Connector/J library from [this link](https://dev.mysql.com/downloads/connector/j/?os=26).
    - Add the downloaded JAR file (e.g., `mysql-connector-java-8.1.0.jar`) to your project's reference library.
 
-4. **Adjust Database Connection:**
+4. Adjust Database Connection:
    - Open the `Home.java` file in your preferred IDE.
    - Locate the following lines of code:
      ```java
@@ -41,33 +40,33 @@ Welcome to the Student Management System! This Java application is designed to m
 
 ---
 
-**Usage:**
+Usage:
 
-1. **Run the Application:**
+1. Run the Application:
    - Run the `Home.java` file in your IDE.
 
-2. **Log In:**
+2. Log In:
    - Enter the default username "admin" and password "password" when prompted.
 
-3. **Explore Menu Options:**
+3. Explore Menu Options:
    - The application provides a menu-driven interface with options to add, view, search, edit, and delete student records.
 
-4. **Follow Validations:**
+4. Follow Validations:
    - Pay attention to input validations for contact numbers and email addresses during student creation and editing.
 
 ---
 
-**Additional Information:**
+Additional Information:
 
-- **Library Dependency:**
+- Library Dependency:
    - The application relies on the "mysql-connector-j-8.1.0" library for MySQL connectivity. Ensure it is added to the reference library.
 
-- **Note:**
+- Note:
    - This system is designed for educational purposes and can be expanded for more advanced features and security enhancements.
 
 ---
 
-**Feedback and Contributions:**
+Feedback and Contributions:
 
 Feel free to provide feedback or contribute to the project. If you encounter any issues or have suggestions for improvement, please create an issue or submit a pull request.
 
